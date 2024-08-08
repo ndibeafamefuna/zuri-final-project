@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    margin-top: 15px;
+}
+
+img{
+    height: 35px;
+    width: 35px;
+}
+
+table{
+    width: 85%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+th{
+   border: 1px solid black;
+   height: 50px;
+}
+
+td{ 
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.available-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.available-content1{
+    border: 1px solid black;
+    width: 95%;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.available-content2{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.available-content2 div{
+    margin-bottom: 5px;
+}
+
+#edit{
+    background-color: yellow;
+    width: 70px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+#notification{
+    background-color: plum;
+    width: 50px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+#visible{
+    background-color: lightgreen;
+    width: 50px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+#delete{
+    background-color: red;
+    width: 70px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+#eye{
+    display: none;
+}
+
+.add-box{
+    width: 100%;
+    margin: auto;
+    text-align: right;
+}
+
+#add-btn{
+    background-color: blue;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 18px;
+}
+
+.content-box{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.color-box div{
+    display: flex;
+    padding: 0 10px;
+}
+
+.size-box div{
+    display: flex;
+    padding: 0 10px;
+}
+
+.number{
+    color: red;
+}
+
+#add_form, #edit-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+
+#add_form input, #edit-form input{
+    width: 100%;
+}
+
+.form-content, .edit-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-input,.edit-input{
+    width: 180px;
+    margin-top: 50px;
+}
+

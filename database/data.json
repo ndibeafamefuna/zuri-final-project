@@ -1,0 +1,119 @@
+{
+  "product": [
+    {
+      "product_name": "Air Force 1",
+      "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/4f37fca8-6bce-43e7-ad07-f57ae3c13142/air-force-1-07-mens-shoes-jBrhbr.png",
+      "amount": 120000,
+      "quantity": 24,
+      "available_color": [
+        "black",
+        "white",
+        " ",
+        " "
+      ],
+      "color_quantity": [
+        10,
+        14,
+        " ",
+        " "
+      ],
+      "size_quantity": [
+        0,
+        5,
+        5,
+        4,
+        2,
+        4,
+        4
+      ],
+      "id": "a053"
+    },
+    {
+      "product_name": "Sabrina Max",
+      "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/da7f360e-815e-4244-96b0-ce09631d1833/SABRINA+2.png",
+      "amount": "333000",
+      "quantity": "60",
+      "available_color": [
+        "red",
+        "yellow",
+        " ",
+        ""
+      ],
+      "color_quantity": [
+        "35",
+        "25",
+        " ",
+        " "
+      ],
+      "size_quantity": [
+        "10",
+        "10",
+        "10",
+        "10",
+        "5",
+        "5",
+        "10"
+      ],
+      "id": "143e"
+    },
+    {
+      "product_name": "Jordan True Flight",
+      "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/362dd39a-e276-47f2-98e0-1df38ee381d6/jordan-true-flight-mens-shoes-rV89fM.png",
+      "amount": 250000,
+      "quantity": 20,
+      "available_color": [
+        "white",
+        "blue",
+        "green",
+        " "
+      ],
+      "color_quantity": [
+        10,
+        7,
+        3,
+        " "
+      ],
+      "size_quantity": [
+        5,
+        3,
+        0,
+        4,
+        2,
+        4,
+        2
+      ],
+      "id": "e2cd"
+    },
+    {
+      "id": "758c"
+    },
+    {
+      "id": "71eb",
+      "product_name": "Sabrina Max",
+      "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/da7f360e-815e-4244-96b0-ce09631d1833/SABRINA+2.png",
+      "amount": "350000",
+      "quantity": "60",
+      "available_color": [
+        "red",
+        "black",
+        " ",
+        ""
+      ],
+      "color_quantity": [
+        "35",
+        "25",
+        " ",
+        " "
+      ],
+      "size_quantity": [
+        "10",
+        "10",
+        "10",
+        "10",
+        "5",
+        "5",
+        "10"
+      ]
+    }
+  ]
+}

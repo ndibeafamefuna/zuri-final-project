@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin side</title>
+    <link rel="stylesheet" href="./stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <main>
+        <h1>Store Inventory</h1>
+        <form id="add_form">
+        <div class="add-box">
+            <button type="submit" id="add-btn"><i class="fa fa-plus" aria-hidden="true"></i> &nbsp; Add</button>
+        </div>
+
+        <div class="form-content">
+             <div class="form-input">
+                <label for="product_name">Product Name:</label>
+                <input name="product_name" type="text">
+            </div>
+            <div class="form-input">
+                <label for="image">Image:</label>
+                <input name="image" type="url" placeholder="url">
+            </div>
+            <div class="form-input">
+                <label for="amount">Amount:</label>
+                <input name="amount" type="number">
+            </div>
+            <div class="form-input">
+                <label for="quantity">Quantity:</label>
+                <input name="quantity" type="number">
+            </div>
+            <div class="form-input">
+                <label for="availablecolor">Available colors:</label>
+                <div>
+                    <input name="available_color" type="text" placeholder="color,color,color, ...">
+                    <input name="color_quantity" type="text" placeholder="quantity,quantity,quantity, ...">
+                </div>
+            </div>
+                
+            <div class="form-input">
+                <label for="size">Available sizes:</label>
+                <input name="size_quantity" type="text" placeholder="Qty for 6(40), 7(41),8(42).... ">
+            </div>
+        </div>
+
+        </form>
+
+
+        
+<!-- form for editing data        -->           
+        <form id="edit-form">
+ 
+        <div class="edit-content">
+             <div class="form-input">
+                <label for="product_name">Product Name:</label>
+                <input name="product_name" type="text">
+            </div>
+            <div class="edit-input">
+                <label for="image">Image:</label>
+                <input name="image" type="url" placeholder="url">
+            </div>
+            <div class="edit-input">
+                <label for="amount">Amount:</label>
+                <input name="amount" type="number">
+            </div>
+            <div class="edit-input">
+                <label for="quantity">Quantity:</label>
+                <input name="quantity" type="number">
+            </div>
+            <div class="edit-input">
+                <label for="availablecolor">Available colors:</label>
+                <div>
+                    <input name="available_color" type="text" placeholder="color,color,color, ...">
+                    <input name="color_quantity" type="text" placeholder="quantity,quantity,quantity, ...">
+                </div>
+            </div>
+                
+            <div class="edit-input">
+                <label for="size">Available sizes:</label>
+                <input name="size_quantity" type="text" placeholder="Qty for 6(40), 7(41),8(42).... ">
+            </div>
+        </div>
+           
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        <div>Product Name</div> 
+                    </th>
+                    <th>
+                        <div>Image</div> 
+                    </th>
+                    <th>
+                        <div>Amount</div> 
+                    </th>
+                    <th>
+                        <div>Quantity</div> 
+                    </th>
+                    <th>
+                        <div class="available-box">
+                            <div class="available-content1">
+                                Available
+                            </div>
+                            <div class="available-content2">
+                                <div>Colour [<span class="number">Qty</span>]</div>
+                                <div>Size [<span class="number">Qty</span>]</div>
+                            </div>
+                        </div> 
+                    </th>
+                    <th>
+                        <div>Action</div> 
+                    </th>
+            
+                </tr>    
+            </thead>
+
+            <tbody id="tbody">
+
+
+                
+            </tbody>
+        </table>
+
+    </main>
+    
+
+    <script src="./script.js"></script>
+</body>
+</html>

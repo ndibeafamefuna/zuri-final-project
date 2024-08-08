@@ -1,0 +1,15 @@
+{
+  "name": "json-crud",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "start": "json-server --watch ./database/data.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.1"
+  }
+}
